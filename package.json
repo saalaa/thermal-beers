@@ -1,0 +1,17 @@
+{
+  "name": "thermal-beers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benoit Myard <myardbenoit@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "winston": "^2.4.0",
+    "zeromq": "^4.6.0"
+  }
+}
