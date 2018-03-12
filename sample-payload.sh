@@ -1,7 +1,6 @@
 #!/bin/sh
 
 HOST=localhost:9331
-# HOST=app2-preprod:9331
 
 curl -X POST http://$HOST/pipeline-events \
   -H "X-Gitlab-Event: Build Hook" \
