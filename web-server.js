@@ -11,6 +11,11 @@ var app = express();
 
 app.use(parser.json());
 
+app.get('/', function (req, res) {
+  res.set('Content-Type', 'text/plain');
+  res.send('thermal-beers');
+});
+
 app.post('/pipeline-events', function (req, res) {
   try {
     var payload = req.body;
